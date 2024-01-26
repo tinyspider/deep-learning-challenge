@@ -35,7 +35,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
         - nodes_layer_out, 1, sigmoid
         - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/3%20(1).png)
         - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/3%20(2).png)
-    - Optimization v3: 0.4654858112335205, Accuracy: 0.7878717184066772
+    - Optimization v3: Loss: 0.4654858112335205, Accuracy: 0.7878717184066772
         - nodes_layer_in = 80, relu
         - nodes_layer1 = 30, sigmoid
         - nodes_layer_out = 1, sigmoid
