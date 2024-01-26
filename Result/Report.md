@@ -53,4 +53,4 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 ## Summary
 
 Overall, the final model can predict at 78.79% accuracy.
-Alternatively, we could use a random forest model, which constructs multitude of decision trees at training time. The random forest model deals with semi-continuous variables easily. It also handles mixed variable types well. 
+Alternatively, we could use a random forest model, which constructs multitude of decision trees at training time. The random forest model deals with semi-continuous variables easily. It also handles mixed variable types well. Overall, it can perform well when predicting classification. 
