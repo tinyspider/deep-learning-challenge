@@ -6,17 +6,18 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 ## Results
 ### Data Preprocessing
 - What variable(s) are the target(s) for your model?
-    - 
+    - "IS_SUCCESSSFUL" column
 - What variable(s) are the features for your model?
-    - 
+    -  APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 - What variable(s) should be removed from the input data because they are neither targets nor features?
-    - 
+    - EIN is neither a target nor a feature. NAME was removed in the initial model but was kept in the optimized model as a feature. 
 ### Compiling, Training, and Evaluating the Modelc22
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
     - First model: Loss: 0.5625632405281067, Accuracy: 0.7268804907798767
         - layer 1, 80, relu
         - layer 2, 30, sigmoid
         - layer 3, 1, sigmoid
+        ![photo1](Photos/1 (1).png)
     - Optimization v1: Loss: 0.5754250288009644, Accuracy: 0.7276967763900757
         - nodes_layer_in, 200, relu
         - nodes_layer1, 200, sigmoid
@@ -38,9 +39,9 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
     - Yes. 
 - What steps did you take in your attempts to increase model performance?
     - Attempt 1 has 5 layers and more neurons than the unoptimized model.
-    - Attempt 2 has 4 layers and less neurons each layer than the unoptimized model.
-    - Attempt 3 has "NAME" column as a feature instead of dropping it. Any value in "NAME" that occured less than 5 times was replaced as other. Same layer and neuron setup as the unoptimized model.
+    - Attempt 2 has 4 layers and fewer neurons in each layer than the unoptimized model.
+    - Attempt 3 has the "NAME" column as a feature instead of dropping it. Any value in "NAME" that occurred less than 5 times was replaced as other. The same layer and neuron setup as the unoptimized model.
 ## Summary
 
-Overall, the final model is able to predict at 78.79% accuracy.
-Alternatively, we could use random forest model, which construacs multitude of decision trees at training time. The random forest model deals with semi-continous varuabkes easily.It also handles mixed variable types well. 
+Overall, the final model can predict at 78.79% accuracy.
+Alternatively, we could use a random forest model, which constructs multitude of decision trees at training time. The random forest model deals with semi-continuous variables easily. It also handles mixed variable types well. 
