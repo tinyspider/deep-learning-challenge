@@ -17,7 +17,8 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
         - layer 1, 80, relu
         - layer 2, 30, sigmoid
         - layer 3, 1, sigmoid
-        ![photo1](Result/Photos/1 (1).png)
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/1%20(1).png)
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/1%20(2).png)
     - Optimization v1: Loss: 0.5754250288009644, Accuracy: 0.7276967763900757
         - nodes_layer_in, 200, relu
         - nodes_layer1, 200, sigmoid
@@ -25,16 +26,24 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
         - nodes_layer3, 50, sigmoid
         - nodes_layer4, 25, sigmoid
         - nodes_layer_out, 1, sigmoid
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/2%20(1).png)
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/2%20(2).png)
     - Optimization v2: Loss: 0.560258686542511, Accuracy: 0.7276967763900757
         - nodes_layer_in, 40, relu
         - nodes_layer1, 20, sigmoid
         - nodes_layer2, 10, sigmoid
         - nodes_layer_out, 1, sigmoid
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/3%20(1).png)
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/3%20(2).png)
     - Optimization v3: 0.4654858112335205, Accuracy: 0.7878717184066772
         - nodes_layer_in = 80, relu
         - nodes_layer1 = 30, sigmoid
         - nodes_layer_out = 1, sigmoid
-
+        - "NAME" is kept as a feature. 
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/4%20(1).png)
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/4%20(2).png)
+        - ![photo1](https://github.com/tinyspider/deep-learning-challenge/blob/main/Result/Photos/name.png)
+        
 - Were you able to achieve the target model performance?
     - Yes. 
 - What steps did you take in your attempts to increase model performance?
