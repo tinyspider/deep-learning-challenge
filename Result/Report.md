@@ -17,7 +17,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
         - layer 1, 80, relu
         - layer 2, 30, sigmoid
         - layer 3, 1, sigmoid
-        ![photo1](Photos/1 (1).png)
+        ![photo1](Result/Photos/1 (1).png)
     - Optimization v1: Loss: 0.5754250288009644, Accuracy: 0.7276967763900757
         - nodes_layer_in, 200, relu
         - nodes_layer1, 200, sigmoid
